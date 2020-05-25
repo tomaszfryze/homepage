@@ -1,13 +1,44 @@
 body {
-    background:rgb(255, 202, 103);
+  background: rgb(255, 202, 103);
 }
 h3 {
-    color: #1460AA;
+  color: #1460aa;
 }
 a {
-    color: rgb(47, 129, 47);
+  color: rgb(47, 129, 47);
 }
 
 .site-header {
-    color: rgb(2, 2, 95);
+  color: rgb(2, 2, 95);
+}
+
+.main {
+  max-width: 1000px;
+}
+
+.article {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.image {
+  width: 600px;
+  margin: 10px auto;
+}
+
+.navigation {
+  background: darkblue;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.navigation__link {
+  color: white;
+  padding: 5px;
+}
+
+.navigation__link--main {
+  color: hotpink;
 }
