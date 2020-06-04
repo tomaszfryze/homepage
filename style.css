@@ -54,3 +54,37 @@ a {
 .navigation__link--main {
   color: hotpink;
 }
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.main-section {
+display: grid;
+grid-template-areas: "header header"
+"article aside"
+"footer footer";
+grid-template-columns: 1fr 200px;
+column-gap: 16px;
+row-gap: 16px;
+
+}
+
+.main-section__header {
+  grid-area: header;
+}
+
+.main__article {
+  grid-area: article;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.footer {
+  grid-area: footer;
+}
