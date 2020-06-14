@@ -1,0 +1,22 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "My first npm init",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaszfryze/homepage_new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomaszfryze/homepage_new/issues"
+  },
+  "homepage": "https://github.com/tomaszfryze/homepage_new#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
