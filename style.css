@@ -25,6 +25,28 @@ a {
 .site-header {
   color: rgb(2, 2, 95);
 }
+.acticle__header::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(255,132,0);
+background: radial-gradient(circle, rgba(255,132,0,1) 14%, rgba(0,0,0,1) 55%);
+}
+.acticle__header::after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgb(255,132,0);
+background: radial-gradient(circle, rgba(255,132,0,1) 14%, rgba(0,0,0,1) 55%);
+}
+
+.acticle:hover {
+  background: white;
+}
 
 .main {
   max-width: 800px;
@@ -55,6 +77,9 @@ a {
   color: black;
   padding: 5px;
   text-decoration: none;
+}
+.navigation__link:hover {
+  color: gray;
 }
 
 .navigation__link--main {
@@ -203,4 +228,6 @@ div {
   position: absolute;
   top: 8px;
   right: 8px;
+  border: none;
+  background: none;
 }
