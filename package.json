@@ -10,6 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "sass": "npx node-sass -w scss/style.scss style.css", 
     "cow": "cowsay Elo elo 520!",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
