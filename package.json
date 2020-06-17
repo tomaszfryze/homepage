@@ -1,9 +1,16 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "description": "My first npm init",
+  "description": "",
   "main": "main.js",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
+    "cow": "cowsay Elo elo 520!",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/tomaszfryze/homepage_new/issues"
   },
-  "homepage": "https://github.com/tomaszfryze/homepage_new#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "homepage": "https://github.com/tomaszfryze/homepage_new#readme"
 }
